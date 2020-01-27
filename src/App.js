@@ -1,26 +1,35 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SampleText from './Components/SampleText'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCog } from '@fortawesome/free-solid-svg-icons'
 
-function App() {
-  return (
+
+class App extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      name: 'Jerome Ronquillo',
+    }
+  }
+
+  render(){
+    return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <FontAwesomeIcon className="App-logo" icon={faCog} />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+           <code>{this.state.name}</code> 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <SampleText />
+
       </header>
     </div>
-  );
+    );
+  }
+  
 }
 
 export default App;
