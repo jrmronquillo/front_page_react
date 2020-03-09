@@ -13,8 +13,8 @@ class Content extends Component {
           <span className="arrows-item"><FontAwesomeIcon className="" icon={faArrowAltCircleRight} /></span>
         </div>
         <div className="button-section">
-        	<a href="/blog"><button id="button1" className={this.props.focusedButton === 0 ? 'button-text-focused' : 'button-text' }>Button One</button></a>
-        	<a href="/"><button id="button2" className={this.props.focusedButton === 1 ? 'button-text-focused': 'button-text'}>Button Two</button></a>
+        	<a href="/blog"><button id="button1" className={this.props.focusedButton === 0 ? 'button-text-focused' : 'button-text' }>LinkedIn</button></a>
+        	<a href="/"><button id="button2" className={this.props.focusedButton === 1 ? 'button-text-focused': 'button-text'}>Projects</button></a>
         </div>
       </div>
     );
