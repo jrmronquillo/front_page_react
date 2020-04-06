@@ -1,4 +1,4 @@
 # run:
-`cd my-app`
-`npm install`
-`npm start`
+`cd my-app`  
+`npm install`  
+`npm start`  
