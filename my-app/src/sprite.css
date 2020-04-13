@@ -42,7 +42,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   padding-bottom: 70%;
 
   /* Set The Sprite as the Background */
-  background-image: url("sprite_optimized_6.jpg");
+  background-image: url("sprite_optimized_9.jpg");
   background-position: 0 0;
   /*background-size: 200%; number of images horizontally * 100 */
   background-size: cover;
